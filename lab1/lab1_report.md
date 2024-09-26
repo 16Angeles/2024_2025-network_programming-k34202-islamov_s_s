@@ -31,6 +31,8 @@ Date of finished: 26.09.2024
 
 5. После этого устанавливаем Wireguard на удалённую машину, прописываем в нём в файл условий интерфейса. Создаём пару ключей.
 
+![image](https://github.com/16Angeles/2024_2025-network_programming-k34202-islamov_s_s/blob/e501baf5996ae1b39417675e0ed3d0fe913231be/lab1/%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0.jfif)
+
 6. После этого начинаем работу с MikroTik. С помощью WinBox открываем графический интерфейс WG и делаем конфиг клиента.
 
 ![image](https://github.com/16Angeles/2024_2025-network_programming-k34202-islamov_s_s/blob/313e4360d77389df6ddc41bb1b43b1ce9293248f/lab1/1.jfif)
