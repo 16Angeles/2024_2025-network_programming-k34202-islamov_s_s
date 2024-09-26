@@ -25,7 +25,7 @@ Date of finished: 26.09.2024
 
 2. Подключаемся к ней по ssh, устанавливаем ansible.
 
-[![image](https://github.com/user-attachments/assets/c6d0d4e7-91bb-488b-a464-f7b93783a3e7)](https://github.com/16Angeles/2024_2025-network_programming-k34202-islamov_s_s/blob/0592d3f3b6a1fe3f71c73a864d57dca8cfdae845/lab1/1.jfif)
+[[![image](https://github.com/user-attachments/assets/c6d0d4e7-91bb-488b-a464-f7b93783a3e7)](https://github.com/16Angeles/2024_2025-network_programming-k34202-islamov_s_s/blob/0592d3f3b6a1fe3f71c73a864d57dca8cfdae845/lab1/1.jfif)](https://github.com/16Angeles/2024_2025-network_programming-k34202-islamov_s_s/blob/a482b405cd7a404280f233b88a9946ab6c7edb85/lab1/1.jfif)
 
 4. В VirtualBox устанавливаем MikroTik, это будет важно для дальнейшей работы. Здесь имеет смысл обратить внимание на то, что после загрузки в настройках VirtualBox необходимо отключить загрузочный диск вручную, тогда как на установке более привычных операционных систем это происходит автоматически.
 
