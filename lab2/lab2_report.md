@@ -18,7 +18,14 @@ Date of finished:
 
 Установим второй CHR на своем ПК и организуем второй WireGuard Client на втором CHR и проверим доступ до сервера `10.0.0.1` и между клиентами `10.0.0.4` `10.0.0.5`
 
-![alt text]()
+![alt text](pics/config-server.jpg)
+
+Добавим еще один пир в конфигурацию wg0.
+
+![alt text](pics/ping.jpg)
+
+Проверим пинг с CHR2 на CHR1. 
+P.S. пинги с CHR2 на сервер тоже работают.
 
 Используя Ansible, настроим сразу на 2-х CHR:
 - логин/пароль
@@ -82,6 +89,10 @@ routeros_setup.yml                                                              
 ```
 
 Запустим и проверим, что все работает. P.S. на этом этапе пришлось пофиксить очень много ошибок, от установки дополнительных библиотек, до проверки подключения через SHH (но я стойкий боец, поэтому справился):
+
+![alt text](pics/rabota.jpg)
+
+Запуск плейбука
 
 ```bash
 root@compute-vm-2-1-10-hdd-1731857859188:/etc# ansible-playbook -i inventory.yml routeros_setup.yml
@@ -189,8 +200,8 @@ chr1                       : ok=5    changed=4    unreachable=0    failed=0    s
 chr2                       : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ```
 Сверим, что полученные конфигурации корректны:
-![alt text]()
-
+![alt text](pics/final1.jpg)
+![alt text](pics/final2.jpg)
 
 ### Вывод
 В ходе данной работы с помщью Ansible были настроены несколько сетевых устройств, а также успешно собрана информация о них.
