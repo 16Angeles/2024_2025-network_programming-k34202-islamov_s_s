@@ -39,4 +39,21 @@ postgres=# \q
 
 ![alt text](pics/image.png)
 
+>Приступим к миграциям
+
+![alt text](pics/migrate.png)
+
+>Перейдем в нетбокс и залогинимся.
+```bash
+(venv) duraki@compute-vm-2-1-10-hdd-1731857859188:/opt/netbox/netbox$ python3 manage.py runserver 0.0.0.0:8000 --insecure
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 21, 2024 - 14:13:22
+Django version 5.0.9, using settings 'netbox.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+```
+
+
 
