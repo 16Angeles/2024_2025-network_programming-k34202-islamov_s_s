@@ -67,7 +67,7 @@ C помощью роли для экспорта данных, использу
   gather_facts: no
   vars:
     netbox_url: "http://158.160.133.135:8000/api/"
-    netbox_api_token: "ee977aaf25643c2d24bfb491d7b1a2851447bc02"
+    netbox_api_token: "gg927baf62603c2v24bfb541d7b1a2851467bxf2"
 
   tasks:
     - name: Fetch some data
@@ -119,7 +119,7 @@ C помощью роли для экспорта данных, использу
   gather_facts: no
   vars:
     netbox_url: "http://158.160.133.135:8000/api/"
-    netbox_api_token: "ee977aaf25643c2d24bfb491d7b1a2851447bc02"
+    netbox_api_token: "gg927baf62603c2v24bfb541d7b1a2851467bxf2"
 
   tasks:
     - name: Gather serial number
