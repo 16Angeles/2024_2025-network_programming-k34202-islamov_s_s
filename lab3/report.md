@@ -33,6 +33,10 @@ postgres=# GRANT ALL PRIVILEGES ON DATABASE netbox TO netbox;
 GRANT
 postgres=# \q
 ```
-Перейдем в сам нетбокс.
+![alt text](pics/postgres.png)
+
+>Модули python и redis.
+
+![alt text](pics/image.png)
 
 
