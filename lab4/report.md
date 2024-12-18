@@ -30,7 +30,7 @@ Date of finished:
 
 1. Проверим, что изначально пинг не поддреживается. Для этого поднимем mininet, используем команду make run.
 
-![alt text](pics/)
+![alt text](pics/net.png)
 
 2. В файле `basic.p4` внесем  изменения:
 
@@ -124,7 +124,7 @@ control MyDeparser(packet_out packet, in headers hdr) {
 
 3. Переподнимем `mininet` и проверим, что пинг идет у всех коммутаторов.
 
-![alt text](pics/)
+![alt text](pics/ping.png)
 
 > Реализация базового туннелирования
 
@@ -300,15 +300,15 @@ control MyDeparser(packet_out packet, in headers hdr) {
 
 2. Проверим корректность работы без туннелирования 
 
-![alt text](pics/)
+![alt text](pics/2.png)
 
 3. Проверим корректность работы с туннелированием 
 
-![alt text](pics/)
+![alt text](pics/3.png)
 
 4. Проверим работу проверки IP 
 
-![alt text](pics/)
+![alt text](pics/4.png)
 
 ### Вывод
 В ходе данной работы были реализованы базовая переадресация и туннелирование с помощью языка P4
